@@ -1,0 +1,177 @@
+
+h3{
+    border: 1px;
+}
+
+.dotted {
+    border-style: dotted;
+    border-radius: 1.2em;
+}
+.dashed {
+    border-style: dashed;
+    border-radius: 2.1em;
+}
+.solid {
+    border-style: solid;
+    border-radius: 0.5em;
+}
+.double {
+    border-style: double;
+    border-radius: 1.5em;
+}
+.groove {
+    border-style: groove;
+    border-radius: 1.5rem;
+}
+.ridge {
+    border-style: ridge;
+}
+.inset {
+    border-style: inset;
+}
+.outset {
+    border-style: outset;
+}
+.none {
+    border-style: none;
+}
+.hidden {
+    border-style: hidden;
+}
+.mix {
+    border-style: dotted dashed solid double;
+}
+
+
+
+.padding-demo{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.height-width-demo{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+.hidden{
+    display: none;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3;
+    background: grey;
+    height: 100px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+
+  .grid-container{
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;  
+  }
+
+  .grid-item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .shadow-demo-1{
+    text-shadow: 1px 1px;
+  }
+
+  .shadow-demo-2 {
+    text-shadow: 2px 2px red;
+  }
+
+  .shadow-demo-3 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+  .box-shadow-1{
+    box-shadow: 10px 10px lightblue;
+  }
+
+  .card-container{
+    padding: 10px;
+  }
+
+  .card-header{
+    background-color: #594caf;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+  }
+
+  .card{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .float-example div{
+    float: left;
+    padding: 15px;
+  }
+
+  .float1 {
+    background: red;
+  }
+  
+  .float2 {
+    background: yellow;
+  }
+  
+  .float3 {
+    background: green;
+  }
+
+  .img-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .img-2{
+    opacity: 0.5;
+    
+  }
+
+  .img-3{
+    filter: grayscale(100%);
+  }
+
+  .img-4:hover {
+    transform: scaleX(-1);
+  }
